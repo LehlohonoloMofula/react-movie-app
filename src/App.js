@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-//import 
+import MovieCard  from './MovieCard'
 import './App.css';
 
 function App() {
@@ -28,11 +28,7 @@ function App() {
         </div>
       </div>
 
-      <div className="movies-">
-        { movies.map((movie) =>(
-          <MovieCard />
-        ))}
-      </div>
+    
     </div>
   );
 }

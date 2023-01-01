@@ -4,4 +4,4 @@ import React from 'react';
 
  }
 
- export default MovieCard{}
+ export default MovieCard
